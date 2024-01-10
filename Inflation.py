@@ -158,7 +158,7 @@ scatter = plt.scatter(growth["2000"], growth["Growth"], c=labels,
 cen_scatter = plt.scatter(cen[:, 0], cen[:, 1],
                               s=45, c="k", marker="d", label='Cluster Centers')
 plt.xlabel("Inflation, Consumer Prices, 2000")
-plt.ylabel("Growth/year [%]")
+plt.ylabel("Growth per year [%]")
 
 
 # Adding legend
@@ -201,7 +201,7 @@ SS_cen = plt.scatter(SS_cen[:, 0],
                                      s=45, c="k", marker="d", 
                                      label='Cluster Centers')
 plt.xlabel("Inflation, Consumer Prices, 2000")
-plt.ylabel("Growth/year [%]")
+plt.ylabel("Growth per year [%]")
 
 # Add legend
 plt.legend(handles=[scatter_SS, SS_cen], loc='upper right')
